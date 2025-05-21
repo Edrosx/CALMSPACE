@@ -4,9 +4,9 @@ import subprocess
 import os
 
 # Configuración
-puerto = "COM4"         # Reemplaza con tu puerto correcto
+puerto = "COM4"         
 baudrate = 115500
-tiempo_lectura = 60     # Segundos de captura de datos
+tiempo_lectura = 60     
 archivo_salida = "data.txt"
 
 # Conexión al Arduino
@@ -37,7 +37,7 @@ print(f"\n✅ Datos guardados en {archivo_salida} ({len(datos)} líneas).")
 
 # Token y datos
 GITHUB_USER = "Edrosx"
-GITHUB_TOKEN = "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"  # ¡No lo pongas en código compartido!
+GITHUB_TOKEN = "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"  
 REPO = "Edrosx/CALMSPACE"
 BRANCH = "main"
 
